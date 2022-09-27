@@ -5,7 +5,7 @@ scene.background = new THREE.Color(0xEFFF00)
 
 //fondo
 var loader = new THREE.TextureLoader();
-loader.load("./img/FOTOSENA.jpeg", function(texture){
+loader.load("./img/madera.jpg", function(texture){
     scene.background = texture;
 });
 
@@ -26,7 +26,7 @@ document.body.appendChild(renderer.domElement);
 
         //textura
         const textureLoader = new THREE.TextureLoader();
-        const matcap = textureLoader.load("/img/vaca.jpg");
+        const matcap = textureLoader.load("/img/luna.jpg");
         //fin textura
 
         //material 

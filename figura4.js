@@ -18,7 +18,7 @@ document.body.appendChild(renderer.domElement);
     const geometry = new THREE.SphereGeometry( 15, 32, 16 );
 
         const textureLoader = new THREE.TextureLoader();
-        const matcap = textureLoader.load('./img/papel.jpg');
+        const matcap = textureLoader.load('./img/metal.jpg');
 
             const material = new THREE.MeshMatcapMaterial();
             material.metalness = 30;
